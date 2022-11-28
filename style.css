@@ -1,0 +1,249 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+    /*----------------------Navigation---------------------*/
+    
+    .navbar
+{
+    margin-bottom: 0px;
+    background: rgb(23, 113, 209);
+    height: 120px;
+    box-shadow: 0px 5px #777;
+    color: rgb(240, 246, 242)!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar-brand
+{
+    display: inline-block;
+    padding-top 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: inherit;
+    white-space: nowrap;
+}
+a.navbar-brand
+{
+    width: 380px;
+    height: 80px;
+}
+    #nav-item
+{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-link
+{
+color :white;
+}
+.nav-link a:hover
+{
+    color: #b87abc!important;
+}
+
+/*-----------------------Slider----------------------*/
+
+
+
+
+/*-----------------------Projects--------------------*/
+#projects
+{
+background-color: rgb(58, 239, 255);
+background-position: center;
+color: #0c0b0b !important;
+background-attachment: fixed;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+#projects h1
+{
+   text-align: center;
+   color: #111010 !important;
+   padding-bottom: 10px;
+}
+#projects h1::after
+{ 
+    background: #2d2121;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px;
+}
+.projects
+{
+  margin-top: 20px;  
+}
+#projects p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgb(20, 19, 19);
+}
+.projects .col-md-3:hover
+{
+    background: #047cf4;
+    cursor:pointer;
+    transition: 0.7s;
+}
+h1{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px; 
+}
+
+
+/*-------------------------Technologies--------------------------*/
+
+#price
+{
+    padding: 40px 0;
+    background: rgb(254, 254, 254);
+}
+
+.single-price
+{
+   margin: 10px;
+   display: inline;
+   float: left;
+    width: 100%;
+    background-color:#fff;
+    transition: 0.5s;
+}
+
+.single-price:hover
+{
+box-shadow: 0 2px 20px #333;
+}
+
+.price-head
+{
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.price-head h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding:  5px;
+    text-transform: uppercase;
+
+}
+
+.price-head p{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: 30px;
+
+}
+
+#price span
+{
+    font-size: 15px;
+}
+
+.price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+
+}
+.price-content ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+ul li:last-child
+{
+    boarder: none;
+}
+
+
+/*--------------------------Avout--------------------*/
+#about
+{
+    background:rgb(58, 239, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(13, 12, 12);
+}
+#about .btn
+{
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.status-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+
+/*-----------------------Team Members---------------------*/
+
+.team-row
+{
+    background: rgb(99, 236, 246);
+}
+.profile-pic .img-box
+{
+opacity: 1;
+display: block;
+position: relative;
+}
+.profile-pic .img-box img
+{
+filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter:grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size:22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color:#007bff !important
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
